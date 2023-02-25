@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub async fn step1() -> eyre::Result<()> {
     let client = dagger_sdk::connect().await?;
 
